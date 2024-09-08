@@ -1,7 +1,12 @@
 // Create a function to calculate average sales
 
-function calculateAverageSales(sales){
-    return sales.reduce() / sales.length
+function calculateAverageSales(salesData){
+    if (salesData.length === 0) {
+        return 0;
+    }
+    let totalSales = salesData
+    let averageSales = totalSales / salesData.length;
+    return averageSales
 };
 
 
@@ -17,4 +22,4 @@ function determinePerformanceRating(calculateAverageSales){
     } else {
         return "Needs Improvement";
     }
-}
+};

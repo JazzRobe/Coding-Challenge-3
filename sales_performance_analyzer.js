@@ -1,3 +1,5 @@
+// To preface, no I don't know what I am doing and I've been working on this for three days straight.
+
 // Create a function to calculate average sales
 
 function calculateAverageSales(salesData){
@@ -23,3 +25,15 @@ function determinePerformanceRating(calculateAverageSales){
         return "Needs Improvement";
     }
 };
+
+
+/// Create a function to identify top and bottom performers
+
+function findTopAndBottomPerformers(salesData) {
+    salesData.reduce(sales, name) = sales, 0
+
+    const topPerformer = Math.max(sales)
+    const bottomPerformer = Math.min(sales)
+};
+
+

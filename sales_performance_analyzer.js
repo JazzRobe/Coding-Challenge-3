@@ -37,3 +37,11 @@ function findTopAndBottomPerformers(salesData) {
 };
 
 
+// Combine functions to generate a performance report
+
+function generatePerformanceReport(salesData) {
+    return `name: ${name}
+    average sales: ${calculateAverageSales}
+    performance rating: ${generatePerformanceRating}
+    top/bottom performer: ${findTopAndBottomPerformers}`
+};
